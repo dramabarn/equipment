@@ -1,10 +1,10 @@
 # Site settings
-title: NTLX
-email: webmaster@newtheatre.org.uk
+title: DramaBarn
+email: dramasoc@yusu.org
 description: >
-  New Theate's lighting stock
+  University of York Drama Soc's technical equipment stock
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://lx.newtheatre.org.uk" # the base hostname & protocol for your site
+url: "https://dramabarn.github.io/equipment/." # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
