@@ -1,13 +1,5 @@
-- lantern:
-  make: Selecon
-  model: Rama
-  type: Fresnel
-  power: 1200
-  image: rama.jpg
-  stock:
-    good: 12
-    repair: 0
-    broken: 0
+
+# Fresnels
 
 - lantern:
   make: Selecon
@@ -16,19 +8,41 @@
   power: 650
   image: acclaim-fresnel.jpg
   stock:
-    good: 16
-    repair: 2
+    good: 8
+    repair: 0
     broken: 0
 
 - lantern:
-  nickname: FOFF
-  make: Strand
-  model: Patt 223
+  make: Selecon
+  model: Quartet
   type: Fresnel
-  power: 1000
-  image: patt743.jpg
+  power: 650
+  image: quartet-fresnel.jpg
   stock:
     good: 8
+    repair: 0
+    broken: 0
+
+
+- lantern:
+  make: Strand
+  model: Patt 23
+  type: Fresnel
+  power: 500
+  image: patt23.jpg
+  stock:
+    good: 1
+    repair: 0
+    broken: 1
+
+- lantern:
+  make: Strand
+  model: Cantata
+  type: Fresnel
+  power: 500
+  image: cantata-fresnel.jpg
+  stock:
+    good: 2
     repair: 0
     broken: 0
 
@@ -39,73 +53,53 @@
   power: 650
   image: cct-minuette.jpg
   stock:
-    good: 3
-    repair: 0
-    broken: 0
-
-- lantern:
-  nickname: Egg
-  make: Strand
-  model: Patt 123
-  type: Fresnel
-  power: 500
-  image: patt123.jpg
-  stock:
     good: 2
-    repair: 1
-    broken: 0
-
-- lantern:
-  make: ETC
-  model: Source 4 Junior Zoom
-  type: Profile
-  power: 575
-  image: s4jnr.jpg
-  stock:
-    good: 9
     repair: 0
     broken: 0
 
+# Profiles
 - lantern:
-  make: ETC
-  model: Source 4
+  make: CCT
+  model: Minuette 21-36
   type: Profile
-  power: 750
-  image: source4.jpg
+  power: 650
+  image: cct-minuette-profile.jpg
   stock:
     good: 1
     repair: 0
     broken: 0
 
 - lantern:
-  make: Selecon
-  model: Acclaim Zoomspot
+  make: Strand
+  model: SL 15-32
   type: Profile
   power: 650
-  image: acclaim-zoomspot.jpg
+  image: strand-sl-23-50.jpg
   stock:
-    good: 5
-    repair: 0
+    good: 4
+    repair: 2
     broken: 0
 
 - lantern:
-  make: Selecon
-  model: Condenser
+  make: Strand
+  model: SL 23-50
   type: Profile
+  power: 650
+  image: strand-sl-23-50.jpg
   stock:
     good: 2
     repair: 0
     broken: 0
 
-
+# Floods/Pars
 - lantern:
-  make: Chauvet
-  model: COLORdash Par-Quad 18
+  make: Strand
+  model: Coda
   type: Flood
-  power: 117
-  image: colordash-par-quad-18.jpg
+  power: 500
+  image: coda500.jpg
   stock:
-    good: 6
+    good: 2
     repair: 0
     broken: 0
 
@@ -113,51 +107,45 @@
   make:
   model: PAR64
   type: Flood
-  power: 1000
+  power: 1K
   image: par64.jpg
   stock:
-    good: 8
+    good: 7
+    repair: 0
+    broken: 0
+
+
+# LED Fixtures
+- lantern:
+  make: Chauvet
+  model: slimPAR Quad 6 IRC
+  type: led
+  power: 42
+  image: slimpar-quad-6-irc.jpg
+  stock:
+    good: 10
     repair: 0
     broken: 0
 
 - lantern:
-  nickname: Birdie
-  model: PAR16
-  type: Flood
-  power: 75
-  image: par16.jpg
+  make: LEDJ
+  model: StageWash 36
+  type: led
+  power: 36
+  image: ledj-stagewash36.jpg
   stock:
-    good: 14
+    good: 3
     repair: 0
     broken: 0
 
+# Moving Lights
 - lantern:
-  make: Strand
-  model: Patt 137
-  type: Flood
-  image: patt137.jpg
+  make: Chauvet
+  model: Intimidator 355z
+  type: led-mover
+  power: 280
+  image: intimdator-355z.jpg
   stock:
-    good: 2
-    repair: 0
-    broken: 0
-
-- lantern:
-  make: Martin
-  model: Atomic 3000
-  type: Strobe
-  image: atomic.jpg
-  power: 3000
-  stock:
-    good: 1
-    repair: 0
-    broken: 0
-
-- lantern:
-  make: Pulsar
-  model: Strobe
-  type: Strobe
-  image: pulsar-strobe.jpg
-  stock:
-    good: 1
+    good: 4
     repair: 0
     broken: 0
