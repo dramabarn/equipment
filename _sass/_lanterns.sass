@@ -2,7 +2,8 @@ $color-fresnel: #DC6D15
 $color-profile: #D0357D
 $color-flood: #32E1E5
 $color-strobe: yellow
-
+$colour-led: #c36ae5
+$colour-led-mover: #e56fd1
 
 .lanterns
   @include boxy-list-container
@@ -58,3 +59,7 @@ $background-mix: 45%
   background: mix($color-flood, $color-background, $background-mix)
 .lantern-type-strobe
   background: mix($color-strobe, $color-background, $background-mix)
+.lantern-type-led
+  background: mix($colour-led, $color-background, $background-mix)
+.lantern-type-led-mover
+  background: mix($colour-led-mover, $color-background, $background-mix)
