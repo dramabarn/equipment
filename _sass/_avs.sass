@@ -1,0 +1,65 @@
+$color-computer: #DC6D15
+$color-speaker: #D0357D
+$color-projector: #32E1E5
+$color-microphone: yellow
+$colour-led: #c36ae5
+$colour-led-mover: #e56fd1
+
+.av
+  @include boxy-list-container
+
+.av-list
+  @include boxy-list
+
+$swatch-width: 25%
+
+.av-item
+  @include boxy-list-item
+  color: $color-text-white
+  padding: 1rem 1rem 1rem $swatch-width+6%
+
+  i
+    font-size: 1.6em
+    vertical-align: middle
+
+  .av-title
+    font-weight: lighter
+
+  .av-title + .av-name
+    margin-top: -0.5em
+
+  .av-name
+    margin-bottom: 0.5em
+    font-style: italic
+
+  p
+    margin: 0
+
+.av-image
+  position: absolute
+  top: 0
+  left: 0
+  width: $swatch-width
+  height: 16em
+  margin-right: 4%
+
+  background: white
+
+  img
+    padding: 0.5rem
+    width: 100%
+
+$background-mix: 45%
+
+.av-type-computer
+  background: mix($color-computer, $color-background, $background-mix)
+.av-type-speaker
+  background: mix($color-speaker, $color-background, $background-mix)
+.av-type-projector
+  background: mix($color-projector, $color-background, $background-mix)
+.av-type-microphone
+  background: mix($color-microphone, $color-background, $background-mix)
+.av-type-led
+  background: mix($colour-led, $color-background, $background-mix)
+.av-type-led-mover
+  background: mix($colour-led-mover, $color-background, $background-mix)

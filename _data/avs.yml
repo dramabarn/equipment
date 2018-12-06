@@ -1,0 +1,26 @@
+
+# Fresnels
+
+- AV:
+  make: Apple
+  model: Mac Mini
+  type: computer
+  power:
+  image: mac-mini.jpeg
+  stock:
+    good: 1
+    repair: 0
+    broken: 0
+
+- AV:
+  make: Selecon
+  model: Quartet
+  type: Fresnel
+  power: 650
+  image: quartet-fresnel.jpg
+  stock:
+    good: 8
+    repair: 0
+    broken: 0
+
+
