@@ -1,4 +1,6 @@
-# Conventional Fixtures
+
+# Fresnels
+
 - lantern:
   make: Selecon
   model: Acclaim
@@ -34,6 +36,17 @@
     broken: 1
 
 - lantern:
+  make: Strand
+  model: Cantata
+  type: Fresnel
+  power: 500
+  image: cantata-fresnel.jpg
+  stock:
+    good: 2
+    repair: 0
+    broken: 0
+
+- lantern:
   make: CCT
   model: Minuette
   type: Fresnel
@@ -44,6 +57,7 @@
     repair: 0
     broken: 0
 
+# Profiles
 - lantern:
   make: CCT
   model: Minuette 21-36
@@ -77,6 +91,7 @@
     repair: 0
     broken: 0
 
+# Floods/Pars
 - lantern:
   make: Strand
   model: Coda
@@ -112,7 +127,18 @@
     repair: 0
     broken: 0
 
+- lantern:
+  make: LEDJ
+  model: StageWash 36
+  type: led
+  power: 36
+  image: ledj-stagewash36.jpg
+  stock:
+    good: 3
+    repair: 0
+    broken: 0
 
+# Moving Lights
 - lantern:
   make: Chauvet
   model: Intimidator 355z
@@ -123,5 +149,3 @@
     good: 4
     repair: 0
     broken: 0
-
-
