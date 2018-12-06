@@ -3,8 +3,8 @@ title: DramaBarn
 email: dramasoc@yusu.org
 description: >
   University of York Drama Soc's technical equipment stock
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://dramabarn.github.io/equipment/." # the base hostname & protocol for your site
+baseurl: "/equipment" # the subpath of your site, e.g. /blog
+url: "https://dramabarn.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
