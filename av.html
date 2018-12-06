@@ -7,7 +7,7 @@ permalink: /AV/
 <div class="nav-bar">
     <div class="wrapper">
         <div class="nav-button">
-            <a href="/" title="Back"><i class="ion-ios-arrow-back"></i></a>
+            <a href="{{site.baseurl}}/" title="Back"><i class="ion-ios-arrow-back"></i></a>
         </div>
         <div class = nav-title>
             {{ page.title }}
@@ -24,7 +24,7 @@ permalink: /AV/
                 <div class="av-item av-type-{{ av.type | downcase }}">
                     <div class="av-image">
                         {% if av.image %}
-                        <img src="/images/av/{{ av.image }}" />
+                        <img src="{{site.baseurl}}/images/av/{{ av.image }}" />
                         {% endif %}
                     </div>
                     <h2 class="av-title">{{ av.make }} <strong>{{ av.model }}</strong></h2>
