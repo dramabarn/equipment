@@ -1,5 +1,5 @@
 
-# Fresnels
+# Audio Visual Equipment
 
 - AV:
   make: Apple
@@ -13,14 +13,68 @@
     broken: 0
 
 - AV:
-  make: Selecon
-  model: Quartet
-  type: Fresnel
-  power: 650
-  image: quartet-fresnel.jpg
+  make: Allen and Heath
+  model: QU16
+  type: Digital-Mixer
+  power:
+  image: qu16.jpeg
   stock:
-    good: 8
+    good: 1
+    repair: 0
+    broken: 0
+
+- AV:
+  make: ViewSonic
+  model: LightStream PJD5553Lws
+  type: Projector
+  power:
+  image: viewsonic-proj.jpeg
+  stock:
+    good: 1
+    repair: 0
+    broken: 0
+
+- AV:
+  make: Projector
+  model: AV OLD
+  type: Projector
+  power:
+  image:
+  stock:
+    good: 1
     repair: 0
     broken: 0
 
 
+- AV:
+  make: HK Audio
+  model: IL 82
+  type: Speaker
+  power:
+  image: IL82.jpg
+  stock:
+    good: 4
+    repair: 0
+    broken: 0
+
+- AV:
+  make: HK Audio
+  model: PR:O 210 SUB A
+  type: Speaker
+  power:
+  image: hksub.jpg
+  stock:
+    good: 1
+    repair: 0
+    broken: 0
+
+- AV:
+  make: QLab 4
+  model:  Video / Audio
+  type: software
+  power:
+  image: qlab.jpeg
+  stock:
+    good: 2
+    repair: 0
+    broken: 0

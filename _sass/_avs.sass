@@ -2,8 +2,8 @@ $color-computer: #DC6D15
 $color-speaker: #D0357D
 $color-projector: #32E1E5
 $color-microphone: yellow
-$colour-led: #c36ae5
-$colour-led-mover: #e56fd1
+$colour-DigitalMixer: #c36ae5
+$colour-software: #3784e5
 
 .av
   @include boxy-list-container
@@ -59,7 +59,7 @@ $background-mix: 45%
   background: mix($color-projector, $color-background, $background-mix)
 .av-type-microphone
   background: mix($color-microphone, $color-background, $background-mix)
-.av-type-led
-  background: mix($colour-led, $color-background, $background-mix)
-.av-type-led-mover
-  background: mix($colour-led-mover, $color-background, $background-mix)
+.av-type-digital-mixer
+  background: mix($colour-DigitalMixer, $color-background, $background-mix)
+.av-type-software
+  background: mix($colour-software, $color-background, $background-mix)
