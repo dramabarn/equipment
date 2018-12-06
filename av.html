@@ -1,0 +1,40 @@
+---
+title: AV Stock
+layout: default
+permalink: /AV/
+---
+
+<div class="nav-bar">
+    <div class="wrapper">
+        <div class="nav-button">
+            <a href="{{site.baseurl}}/" title="Back"><i class="ion-ios-arrow-back"></i></a>
+        </div>
+        <div class = nav-title>
+            {{ page.title }}
+        </div>
+    </div>
+</div>
+
+<div class="wrapper">
+
+    <div class="av">
+        <ul class="av-list">
+            {% for av in site.data.avs %}
+            <li>
+                <div class="av-item av-type-{{ av.type | downcase }}">
+                    <div class="av-image">
+                        {% if av.image %}
+                        <img src="{{site.baseurl}}/images/av/{{ av.image }}" />
+                        {% endif %}
+                    </div>
+                    <h2 class="av-title">{{ av.make }} <strong>{{ av.model }}</strong></h2>
+                    {% if av.nickname %}<p class="av-name">{{ av.nickname }}</p>{% endif %}
+                    {% if av.power %}<p><i class="ion-flash"></i> {{ av.power }}W</p>{% endif %}
+                    {% if av.stock.good %}<p><i class="ion-pricetags"></i> {{ av.stock.good }} in stock</p>{% endif %}
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+</div>

@@ -1,6 +1,6 @@
-# New Theatre Lighting Stock Catalogue
+# DramaSoc Technical Equipment Catalogue
 
-[Jekyll](http://jekyllrb.com/) based site to catalogue theatrical lanterns, colour filters and gobos. Built as a replacement for [gel-view](https://github.com/wjdp/gel-view/).
+[Jekyll](http://jekyllrb.com/) based site to catalogue theatrical lanterns, gels, AV Equipment and gobos. 
 
 ![Screenshot](https://raw.githubusercontent.com/newtheatre/lx/gh-pages/screenshot.png)
 
@@ -18,6 +18,7 @@ Stock lists are stored in [YAML](http://yaml.org/) files within the `_data/` dir
     - `cut`, rough number of pre-cut filters held.
 
 - For lanterns edit file `_data/lanterns.yml`, the format hasn't been finalised yet.
+- For AV edit edit file `_data/avs.yml`, the format hasn't been finalised yet.
 
 ## Updating library from leefilters.com
 
