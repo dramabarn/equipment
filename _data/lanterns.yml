@@ -39,7 +39,7 @@
   make: Strand
   model: Cantata
   type: Fresnel
-  power: 500
+  power: 1.2K
   image: cantata-fresnel.jpg
   stock:
     good: 2
@@ -48,7 +48,7 @@
 
 - lantern:
   make: CCT
-  model: Minuette
+  model: Minuette PC
   type: Fresnel
   power: 650
   image: cct-minuette.jpg
@@ -143,7 +143,7 @@
   make: Chauvet
   model: Intimidator 355z
   type: led-mover
-  power: 280
+  power: 90
   image: intimdator-355z.jpg
   stock:
     good: 4
