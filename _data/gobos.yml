@@ -6,7 +6,7 @@
   image: rosco-77124.png
   stock:
     - size: M
-      qty: 3
+      qty: 0
 - gobo:
   make: Rosco
   number: 77703
@@ -15,7 +15,7 @@
   image: rosco-77703.png
   stock:
     - size: M
-      qty: 1
+      qty: 0
 - gobo:
   make: Rosco
   number: 77805
@@ -33,7 +33,7 @@
   image: rosco-77178.jpg
   stock:
     - size: M
-      qty: 1
+      qty: 0
 - gobo:
   make: Rosco
   number: 71036
@@ -42,7 +42,7 @@
   image: rosco-71036.jpg
   stock:
     - size: M
-      qty: 1
+      qty: 0
 - gobo:
   make: Rosco
   number: 99203
@@ -51,7 +51,7 @@
   image: rosco-99203.png
   stock:
     - size: M
-      qty: 5
+      qty: 0
 - gobo:
   make: Rosco
   number: 79655
@@ -60,7 +60,7 @@
   image: rosco-79655.jpg
   stock:
     - size: M
-      qty: 3
+      qty: 0
 - gobo:
   make: Gam
   number: G862
@@ -69,7 +69,7 @@
   image: gam-g862.jpg
   stock:
     - size: B
-      qty: 2
+      qty: 0
 - gobo:
   make: Rosco
   number: 78576
@@ -78,7 +78,7 @@
   image: rosco-78576.png
   stock:
     - size: B
-      qty: 1
+      qty: 0
 - gobo:
   make: Gam
   number: G222
@@ -87,7 +87,7 @@
   image: gam-g222.png
   stock:
     - size: B
-      qty: 2
+      qty: 0
 - gobo:
   make: Gam
   number: G326
@@ -96,7 +96,7 @@
   image: gam-g326.png
   stock:
     - size: B
-      qty: 1
+      qty: 0
 - gobo:
   make: Gam
   number: G282
@@ -105,7 +105,7 @@
   image: gam-g282.png
   stock:
     - size: B
-      qty: 2
+      qty: 0
 - gobo:
   make: Rosco
   number: 78129
@@ -114,7 +114,7 @@
   image: rosco-78129.png
   stock:
     - size: B
-      qty: 2
+      qty: 0
 - gobo:
   make: Rosco
   number: 77119
@@ -123,7 +123,7 @@
   image: rosco-77119.jpg
   stock:
     - size: B
-      qty: 2
+      qty: 0
 - gobo:
   make: Rosco
   number: 77802
@@ -132,4 +132,4 @@
   image: rosco-77802.jpg
   stock:
     - size: B
-      qty: 1
+      qty: 0
