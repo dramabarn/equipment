@@ -76,8 +76,8 @@
   power: 650
   image: strand-sl-23-50.jpg
   stock:
-    good: 4
-    repair: 2
+    good: 6
+    repair: 0
     broken: 0
 
 - lantern:
@@ -87,9 +87,9 @@
   power: 650
   image: strand-sl-23-50.jpg
   stock:
-    good: 2
+    good: 1
     repair: 0
-    broken: 0
+    broken: 1
 
 # Floods/Pars
 - lantern:
