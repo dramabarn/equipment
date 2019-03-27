@@ -89,7 +89,7 @@
   stock:
     good: 1
     repair: 0
-    broken: 1
+    broken: 1    
 
 # Floods/Pars
 - lantern:
