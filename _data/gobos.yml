@@ -12,7 +12,7 @@
   make: Rosco
   number: 77220
   name: Moon
-  type: Breakup
+  type: Water and Sky
   image: rosco-77220.png
   stock:
     - size: B
@@ -20,10 +20,10 @@
 
 - gobo:
   make: Rosco
-  number: 77132
+  number: 77138
   name: Window Panes
   type: Architecture
-  image: rosco-77132.png
+  image: rosco-77138.png
   stock:
     - size: B
       qty: 1
@@ -39,11 +39,11 @@
       qty: 1
 
 - gobo:
-  make: Rosco
-  number: 77219
+  make: GAM
+  number: G219
   name: Trees
   type: Breakup
-  image: rosco-77219.png
+  image: gam-g219.png
   stock:
     - size: B
       qty: 2
