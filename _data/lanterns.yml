@@ -19,9 +19,9 @@
   power: 650
   image: quartet-fresnel.jpg
   stock:
-    good: 8
+    good: 7
     repair: 0
-    broken: 0
+    broken: 1
 
 
 - lantern:
@@ -42,9 +42,9 @@
   power: 1.2K
   image: cantata-fresnel.jpg
   stock:
-    good: 2
+    good: 1
     repair: 0
-    broken: 0
+    broken: 1
 
 - lantern:
   make: CCT

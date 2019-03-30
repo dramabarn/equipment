@@ -31,6 +31,8 @@ permalink: /lanterns/
         {% if lantern.nickname %}<p class="lantern-name">{{ lantern.nickname }}</p>{% endif %}
         {% if lantern.power %}<p><i class="ion-flash"></i> {{ lantern.power }}W</p>{% endif %}
         {% if lantern.stock.good %}<p><i class="ion-pricetags"></i> {{ lantern.stock.good }} in stock</p>{% endif %}
+        {% if lantern.stock.broken >= 1 %}<p><i class="ion-settings"></i> {{ lantern.stock.broken }} damaged</p>{% endif %}
+
       </div>
     </li>
     {% endfor %}
