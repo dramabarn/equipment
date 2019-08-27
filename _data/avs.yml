@@ -1,5 +1,5 @@
 
-# Audio Visual Equipment
+# Audio Visual Equipment and other Equipment
 
 - AV:
   make: Apple
@@ -76,5 +76,16 @@
   image: qlab.jpeg
   stock:
     good: 2
+    repair: 0
+    broken: 0
+
+- AV:
+  make: unknown 
+  model:  Hazer
+  type: hazer
+  power:
+  image: 
+  stock:
+    good: 1
     repair: 0
     broken: 0
