@@ -4,6 +4,7 @@ $color-projector: #32E1E5
 $color-microphone: yellow
 $colour-DigitalMixer: #c36ae5
 $colour-software: #3784e5
+$colour-hazer: red
 
 .av
   @include boxy-list-container
@@ -63,3 +64,5 @@ $background-mix: 45%
   background: mix($colour-DigitalMixer, $color-background, $background-mix)
 .av-type-software
   background: mix($colour-software, $color-background, $background-mix)
+.av-type-hazer
+  background: mix($colour-hazer, $color-background, $background-mix)
