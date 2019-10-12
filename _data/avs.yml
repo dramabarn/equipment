@@ -35,11 +35,22 @@
     broken: 0
 
 - AV:
-  make: Projector
-  model: AV OLD
-  type: Projector
+  make: ETC
+  model: Gadget and Nomad
+  type: lightingConsole
   power:
-  image:
+  image: gadget-nomad.png
+  stock:
+    good: 1
+    repair: 0
+    broken: 0
+
+- AV:
+  make: ETC
+  model: EOS 2.9.1
+  type: lightingConsole
+  power:
+  image: eos-software.png
   stock:
     good: 1
     repair: 0
@@ -80,11 +91,11 @@
     broken: 0
 
 - AV:
-  make: unknown 
-  model:  Hazer
-  type: hazer
+  make: Look Solutions 
+  model:  Unique 2.1
+  type: Hazer
   power:
-  image: 
+  image: unique2.1.jpg
   stock:
     good: 1
     repair: 0
