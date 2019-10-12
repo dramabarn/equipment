@@ -138,6 +138,17 @@
     repair: 0
     broken: 0
 
+- lantern:
+  make: ADJ
+  model: Saber Spot RGBW
+  type: led
+  power: 15
+  image: saberSpot.jpeg
+  stock:
+    good: 8
+    repair: 0
+    broken: 0
+
 # Moving Lights
 - lantern:
   make: Chauvet
